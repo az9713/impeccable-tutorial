@@ -12,6 +12,7 @@ One skill, 23 commands, and a shared design vocabulary for AI coding tools. Impe
 | [Key concepts](overview/key-concepts.md) | Every term used across these docs |
 | [Quickstart](getting-started/quickstart.md) | Install and run your first command in under 15 minutes |
 | [Teach your AI](getting-started/teach-your-ai.md) | Set up PRODUCT.md and DESIGN.md for on-brand output |
+| [How Impeccable works](concepts/how-impeccable-works.md) | The four ideas that make AI design reliable, not random |
 | [The register system](concepts/the-register-system.md) | Brand vs. product — how context shapes every command |
 | [Design laws and anti-patterns](concepts/design-laws-and-anti-patterns.md) | What the AI always enforces, what the CLI always catches |
 | [Command categories](concepts/command-categories.md) | Build, Evaluate, Refine, Enhance, Fix, Iterate |
