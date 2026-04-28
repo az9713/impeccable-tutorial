@@ -25,3 +25,11 @@ One skill, 23 commands, and a shared design vocabulary for AI coding tools. Impe
 | [How the skill reaches your AI](architecture/how-the-skill-reaches-your-ai.md) | Source → build → harness directory → AI context |
 | [ADR: live variant mode](adr-live-variant-mode.md) | Architecture decision record for live mode design |
 | [Troubleshooting](troubleshooting/common-issues.md) | Common install, context, live mode, and CLI failures with exact fixes |
+
+## Build your own
+
+| Document | What's inside |
+|---------|--------------|
+| [PRD](build-your-own/prd.md) | Product requirements: problem, users, all 6 components, non-goals, constraints |
+| [Technical Spec](build-your-own/spec.md) | Architecture, component designs, data flows, technology decisions |
+| [Implementation Plan](build-your-own/implementation-plan.md) | Six ordered phases with tasks and acceptance criteria |
