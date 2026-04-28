@@ -1,7 +1,7 @@
 # Impeccable
 
-> **This is a fork of [pbakaus/impeccable](https://github.com/pbakaus/impeccable), enhanced with extensive documentation.**
-> All credit for the original skill, commands, CLI, and live mode goes to [Paul Bakaus](https://www.paulbakaus.com). This fork adds a full `docs/` directory covering concepts, guides, reference, architecture, and troubleshooting.
+> **This is a tutorial fork of [pbakaus/impeccable](https://github.com/pbakaus/impeccable), enhanced with extensive documentation.**
+> All credit for the original skill, commands, CLI, and live mode goes to [Paul Bakaus](https://www.paulbakaus.com). This fork ([az9713/impeccable-tutorial](https://github.com/az9713/impeccable-tutorial)) adds a full `docs/` directory covering concepts, guides, reference, architecture, and troubleshooting.
 
 ---
 
