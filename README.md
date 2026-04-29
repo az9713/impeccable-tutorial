@@ -39,6 +39,30 @@ Impeccable fights that bias with:
 - **23 commands** to audit, review, polish, distill, animate, and more
 - **Curated anti-patterns** that explicitly tell the AI what NOT to do
 
+## How it works
+
+![Impeccable quality overview](codex_doc/infographics/impeccable-quality-infographic-sheet.png)
+
+**The quality flywheel** — not one prompt, but a loop: context in, right discipline selected, code out, rendered UI inspected, lessons fed back as stricter guidance.
+
+![The Quality Flywheel](codex_doc/infographics/01-quality-flywheel.png)
+
+**The context stack** — before the AI edits a single file, it builds a layered brief. Each layer narrows the design space: project identity → visual system → register → command discipline.
+
+![The Context Stack](codex_doc/infographics/02-context-stack.png)
+
+**Command specialisation** — "make it better" becomes a named job. 23 commands keep broad UI work from collapsing into generic advice.
+
+![Command System As Design Specialisation](codex_doc/infographics/04-command-specialization.png)
+
+**The detector as guardrail** — taste rules are not left as prose. Many are converted into executable checks that run in the CLI, the browser, and CI.
+
+![Anti-Pattern Detector As Guardrail](codex_doc/infographics/05-detector-guardrail.png)
+
+Full diagrams (SVG + PNG) with code evidence maps: [`codex_doc/impeccable-quality-infographics.md`](codex_doc/impeccable-quality-infographics.md)
+
+---
+
 ## What's Included
 
 ### The Skill: impeccable
