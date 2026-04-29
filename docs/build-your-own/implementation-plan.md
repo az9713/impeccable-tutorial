@@ -119,6 +119,10 @@ Acceptance: `npm test` runs all tests and passes.
 
 **Goal:** The skill file is complete enough to be installed and used in Claude Code. `/impeccable teach`, `/impeccable shape`, and `/impeccable craft` work end-to-end in a real project.
 
+**MVP scope — 7 commands only.** This phase ships reference files for the 7 commands that carry the majority of design value. The remaining 16 shorter commands (polish, bolder, quieter, distill, harden, onboard, animate, colorize, typeset, layout, delight, overdrive, clarify, adapt, optimize, extract) are stubbed and deferred to Phase 2b after launch.
+
+**Content source.** The reference files are design documents, not generated code. The originals live in `source/skills/impeccable/reference/` in this repo and are the authoritative templates. Read each one before writing your own version — they encode the exact interview protocols, step sequences, and acceptance bars the AI must follow.
+
 ### Tasks
 
 **2.1 Shared design laws**
@@ -162,11 +166,45 @@ Acceptance: given to an AI with a confirmed brief, it follows the step sequence 
 - Write `source/skills/impeccable/reference/document.md`
 - Covers: scanning existing CSS/tokens for DESIGN.md generation, and seeding a starter DESIGN.md for new projects
 
-**2.7 Remaining command reference files**
-Write one reference file per remaining command: `audit`, `polish`, `bolder`, `quieter`, `distill`, `harden`, `onboard`, `animate`, `colorize`, `typeset`, `layout`, `delight`, `overdrive`, `clarify`, `adapt`, `optimize`, `extract`, `critique`, `live`
+**2.7 MVP command reference files (7 commands)**
+
+Write a reference file for each. Use `source/skills/impeccable/reference/<command>.md` in this repo as the authoritative template for content and structure.
+
+| Command | File | What it must include |
+|---|---|---|
+| `audit` | `reference/audit.md` | a11y checklist (WCAG AA), perf checks, responsive checks, scoring rubric |
+| `critique` | `reference/critique.md` | Heuristic scoring axes, severity levels, output format |
+| `live` | `reference/live.md` | WebSocket protocol, element selection flow, variant loop, accept/reject mechanics |
+
+`teach`, `shape`, `craft`, `document` are already covered in tasks 2.3–2.6.
+
+Acceptance: each file is specific enough that the AI follows it without ambiguity. Test by running the command in Claude Code and checking it matches the intended behavior.
+
+**2.7b Stub files for deferred commands**
+
+For every command NOT in the MVP 7, create a minimal stub so the router doesn't 404:
+
+```markdown
+# [command]
+
+This command is coming soon. For now, use `/impeccable craft` with a specific target.
+```
+
+Stubs needed: `polish`, `bolder`, `quieter`, `distill`, `harden`, `onboard`, `animate`, `colorize`, `typeset`, `layout`, `delight`, `overdrive`, `clarify`, `adapt`, `optimize`, `extract`
 
 **2.8 Domain reference files**
-Write: `typography.md`, `color-and-contrast.md`, `spatial-design.md`, `motion-design.md`, `interaction-design.md`, `responsive-design.md`, `ux-writing.md`, `cognitive-load.md`
+
+Write the files that `craft.md` loads based on the design brief's needs. These are reference-grade content — use `source/skills/impeccable/reference/` originals as templates.
+
+| File | Loaded when |
+|---|---|
+| `typography.md` | Every craft run (always) |
+| `spatial-design.md` | Every craft run (always) |
+| `color-and-contrast.md` | Color-heavy or themed brief |
+| `motion-design.md` | Animation or transitions in brief |
+| `interaction-design.md` | Complex forms or interactions |
+| `responsive-design.md` | Responsive requirements |
+| `ux-writing.md` | Heavy copy, labels, or errors |
 
 **2.9 Command router in SKILL.md**
 - Add `## Commands` section with router table (command | category | description | reference path)
@@ -179,9 +217,9 @@ Write: `typography.md`, `color-and-contrast.md`, `spatial-design.md`, `motion-de
 - Writes to every harness directory present in the project
 
 **2.11 `command-metadata.json`**
-- One entry per command: `{ description, argumentHint, category }`
+- One entry per command (all 23, including stubs): `{ description, argumentHint, category }`
 
-Acceptance: a developer can install the `.claude/skills/impeccable/` directory manually and use all commands in Claude Code.
+Acceptance: a developer can install the `.claude/skills/impeccable/` directory manually. All 7 MVP commands work end-to-end in Claude Code. Stub commands return a clear message rather than an error.
 
 ---
 

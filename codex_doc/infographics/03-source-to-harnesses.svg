@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="3. Source To Every AI Harness">
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#211f20"/>
+    </marker>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#211f20" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="#f8f4ef"/>
+  <text x="80" y="92" font-family="Cormorant Garamond, Georgia, serif" font-size="54" font-weight="400" fill="#211f20" text-anchor="start" style="font-style:italic">3. Source To Every AI Harness</text>
+<text x="82" y="134" font-family="Instrument Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#6d6667" text-anchor="start" style="">One authored skill becomes provider-specific bundles for many coding agents.</text>
+<line x1="80" y1="170" x2="1520" y2="170" stroke="#d8ceca" stroke-width="2"/>
+  <rect x="90" y="390" width="285" height="155" rx="16" fill="#fffdf9" stroke="#d1197a" stroke-width="2" opacity="1"/>
+<text x="112" y="432" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#d1197a" text-anchor="start" style="">Source</text>
+<text x="112" y="468" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">source/skills</text>
+<text x="112" y="493" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">impeccable</text>
+<rect x="470" y="290" width="300" height="155" rx="16" fill="#fffdf9" stroke="#211f20" stroke-width="2" opacity="1"/>
+<text x="492" y="332" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#211f20" text-anchor="start" style="">Reader</text>
+<text x="492" y="368" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">SKILL.md</text>
+<text x="492" y="393" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">references, scripts</text>
+<rect x="470" y="590" width="300" height="155" rx="16" fill="#fffdf9" stroke="#9b6a08" stroke-width="2" opacity="1"/>
+<text x="492" y="632" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#9b6a08" text-anchor="start" style="">Build</text>
+<text x="492" y="668" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">counts, ZIPs</text>
+<text x="492" y="693" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">site data</text>
+<rect x="870" y="390" width="300" height="155" rx="16" fill="#fffdf9" stroke="#2468b2" stroke-width="2" opacity="1"/>
+<text x="892" y="432" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#2468b2" text-anchor="start" style="">Transformer</text>
+<text x="892" y="468" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">frontmatter</text>
+<text x="892" y="493" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">placeholders</text>
+<rect x="1240" y="260" width="285" height="155" rx="16" fill="#fffdf9" stroke="#16835a" stroke-width="2" opacity="1"/>
+<text x="1262" y="302" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#16835a" text-anchor="start" style="">Harness Dirs</text>
+<text x="1262" y="338" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">.claude .cursor</text>
+<text x="1262" y="363" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">.agents .github</text>
+<rect x="1240" y="565" width="285" height="155" rx="16" fill="#fffdf9" stroke="#d1197a" stroke-width="2" opacity="1"/>
+<text x="1262" y="607" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#d1197a" text-anchor="start" style="">Downloads</text>
+<text x="1262" y="643" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">dist bundles</text>
+<text x="1262" y="668" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">universal ZIP</text>
+<line x1="375" y1="468" x2="465" y2="370" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="375" y1="468" x2="465" y2="668" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="770" y1="370" x2="865" y2="468" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="770" y1="668" x2="865" y2="468" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1170" y1="468" x2="1235" y2="338" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1170" y1="468" x2="1235" y2="645" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="800" y="850" font-family="Instrument Sans, Arial, sans-serif" font-size="30" font-weight="500" fill="#211f20" text-anchor="middle" style="">The doctrine stays consistent. The packaging adapts to each tool.</text>
+</svg>

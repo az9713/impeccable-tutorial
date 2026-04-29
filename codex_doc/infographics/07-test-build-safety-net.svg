@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="7. Test And Build Safety Net">
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#211f20"/>
+    </marker>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#211f20" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="#f8f4ef"/>
+  <text x="80" y="92" font-family="Cormorant Garamond, Georgia, serif" font-size="54" font-weight="400" fill="#211f20" text-anchor="start" style="font-style:italic">7. Test And Build Safety Net</text>
+<text x="82" y="134" font-family="Instrument Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#6d6667" text-anchor="start" style="">The repo keeps skill text, detector behavior, provider outputs, and site data synchronized.</text>
+<line x1="80" y1="170" x2="1520" y2="170" stroke="#d8ceca" stroke-width="2"/>
+  <rect x="95" y="395" width="250" height="135" rx="16" fill="#fffdf9" stroke="#d1197a" stroke-width="2" opacity="1"/>
+<text x="117" y="437" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#d1197a" text-anchor="start" style="">Change</text>
+<text x="117" y="473" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">source, scripts</text>
+<text x="117" y="498" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">detector, site</text>
+<rect x="405" y="260" width="245" height="135" rx="16" fill="#fffdf9" stroke="#211f20" stroke-width="2" opacity="1"/>
+<text x="427" y="302" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#211f20" text-anchor="start" style="">Tests</text>
+<text x="427" y="338" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">Bun tests</text>
+<text x="427" y="363" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">Node tests</text>
+<rect x="405" y="560" width="245" height="135" rx="16" fill="#fffdf9" stroke="#2468b2" stroke-width="2" opacity="1"/>
+<text x="427" y="602" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#2468b2" text-anchor="start" style="">Fixtures</text>
+<text x="427" y="638" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">should flag</text>
+<text x="427" y="663" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">should pass</text>
+<rect x="720" y="395" width="280" height="135" rx="16" fill="#fffdf9" stroke="#9b6a08" stroke-width="2" opacity="1"/>
+<text x="742" y="437" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#9b6a08" text-anchor="start" style="">Validators</text>
+<text x="742" y="473" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">counts, header</text>
+<text x="742" y="498" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">copy, frontmatter</text>
+<rect x="1080" y="260" width="285" height="135" rx="16" fill="#fffdf9" stroke="#16835a" stroke-width="2" opacity="1"/>
+<text x="1102" y="302" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#16835a" text-anchor="start" style="">Regenerate</text>
+<text x="1102" y="338" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">provider dirs</text>
+<text x="1102" y="363" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">browser bundle</text>
+<rect x="1080" y="560" width="285" height="135" rx="16" fill="#fffdf9" stroke="#d1197a" stroke-width="2" opacity="1"/>
+<text x="1102" y="602" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#d1197a" text-anchor="start" style="">Release</text>
+<text x="1102" y="638" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">ZIPs, site</text>
+<text x="1102" y="663" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">npm, plugin</text>
+<line x1="345" y1="462" x2="400" y2="328" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="345" y1="462" x2="400" y2="628" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="650" y1="328" x2="715" y2="462" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="650" y1="628" x2="715" y2="490" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1000" y1="445" x2="1075" y2="328" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1000" y1="492" x2="1075" y2="628" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="800" y="850" font-family="Instrument Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#211f20" text-anchor="middle" style="">False-positive discipline matters: noisy quality checks stop being trusted.</text>
+</svg>

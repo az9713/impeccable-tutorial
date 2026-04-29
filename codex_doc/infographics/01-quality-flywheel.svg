@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="1. The Quality Flywheel">
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#211f20"/>
+    </marker>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#211f20" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="#f8f4ef"/>
+  <text x="80" y="92" font-family="Cormorant Garamond, Georgia, serif" font-size="54" font-weight="400" fill="#211f20" text-anchor="start" style="font-style:italic">1. The Quality Flywheel</text>
+<text x="82" y="134" font-family="Instrument Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#6d6667" text-anchor="start" style="">High quality emerges from context, focused action, browser evidence, and repeated correction.</text>
+<line x1="80" y1="170" x2="1520" y2="170" stroke="#d8ceca" stroke-width="2"/>
+  <circle cx="800" cy="540" r="270" fill="#fff9f5" stroke="#d8ceca" stroke-width="3"/>
+<text x="800" y="520" font-family="Cormorant Garamond, Georgia, serif" font-size="62" font-weight="400" fill="#211f20" text-anchor="middle" style="font-style:italic">Impeccable</text>
+<text x="800" y="560" font-family="Instrument Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#6d6667" text-anchor="middle" style="">design quality loop</text>
+<rect x="110" y="250" width="255" height="135" rx="16" fill="#fffdf9" stroke="#d1197a" stroke-width="2" opacity="1"/>
+<text x="132" y="292" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#d1197a" text-anchor="start" style="">Context</text>
+<text x="132" y="328" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">PRODUCT.md</text>
+<text x="132" y="353" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">DESIGN.md</text>
+<rect x="510" y="220" width="255" height="135" rx="16" fill="#fffdf9" stroke="#211f20" stroke-width="2" opacity="1"/>
+<text x="532" y="262" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#211f20" text-anchor="start" style="">Design Laws</text>
+<text x="532" y="298" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">rules</text>
+<text x="532" y="323" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">absolute bans</text>
+<rect x="920" y="220" width="255" height="135" rx="16" fill="#fffdf9" stroke="#2468b2" stroke-width="2" opacity="1"/>
+<text x="942" y="262" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#2468b2" text-anchor="start" style="">Commands</text>
+<text x="942" y="298" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">23 focused</text>
+<text x="942" y="323" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">design actions</text>
+<rect x="1235" y="420" width="255" height="135" rx="16" fill="#fffdf9" stroke="#211f20" stroke-width="2" opacity="1"/>
+<text x="1257" y="462" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#211f20" text-anchor="start" style="">Build</text>
+<text x="1257" y="498" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">real frontend</text>
+<text x="1257" y="523" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">project stack</text>
+<rect x="930" y="705" width="255" height="135" rx="16" fill="#fffdf9" stroke="#16835a" stroke-width="2" opacity="1"/>
+<text x="952" y="747" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#16835a" text-anchor="start" style="">Evidence</text>
+<text x="952" y="783" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">browser checks</text>
+<text x="952" y="808" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">live variants</text>
+<rect x="520" y="735" width="255" height="135" rx="16" fill="#fffdf9" stroke="#9b6a08" stroke-width="2" opacity="1"/>
+<text x="542" y="777" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#9b6a08" text-anchor="start" style="">Detector</text>
+<text x="542" y="813" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">25 checks</text>
+<text x="542" y="838" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">audit report</text>
+<rect x="110" y="610" width="255" height="135" rx="16" fill="#fffdf9" stroke="#d1197a" stroke-width="2" opacity="1"/>
+<text x="132" y="652" font-family="Instrument Sans, Arial, sans-serif" font-size="25" font-weight="700" fill="#d1197a" text-anchor="start" style="">Fix And Learn</text>
+<text x="132" y="688" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">polish</text>
+<text x="132" y="713" font-family="Instrument Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#6d6667" text-anchor="start" style="">tests, fixtures</text>
+<line x1="365" y1="318" x2="505" y2="288" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="765" y1="288" x2="915" y2="288" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1175" y1="320" x2="1230" y2="470" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1232" y1="560" x2="1090" y2="700" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="920" y1="770" x2="780" y2="790" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="520" y1="770" x2="365" y2="680" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="220" y1="610" x2="220" y2="390" stroke="#211f20" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+</svg>

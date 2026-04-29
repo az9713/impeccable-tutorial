@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2120" viewBox="0 0 1600 2120">
+  <rect width="1600" height="2120" fill="#f8f4ef"/>
+  <image href="01-quality-flywheel.svg" x="40" y="40" width="740" height="463"/>
+<image href="02-context-stack.svg" x="830" y="40" width="740" height="463"/>
+<image href="03-source-to-harnesses.svg" x="40" y="560" width="740" height="463"/>
+<image href="04-command-specialization.svg" x="830" y="560" width="740" height="463"/>
+<image href="05-detector-guardrail.svg" x="40" y="1080" width="740" height="463"/>
+<image href="06-live-mode.svg" x="830" y="1080" width="740" height="463"/>
+<image href="07-test-build-safety-net.svg" x="40" y="1600" width="740" height="463"/>
+<image href="08-beginner-mental-model.svg" x="830" y="1600" width="740" height="463"/>
+</svg>
