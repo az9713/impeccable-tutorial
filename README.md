@@ -3,6 +3,16 @@
 > **This is a tutorial fork of [pbakaus/impeccable](https://github.com/pbakaus/impeccable), enhanced with extensive documentation.**
 > All credit for the original skill, commands, CLI, and live mode goes to [Paul Bakaus](https://www.paulbakaus.com). This fork ([az9713/impeccable-tutorial](https://github.com/az9713/impeccable-tutorial)) adds a full `docs/` directory covering concepts, guides, reference, architecture, and troubleshooting.
 
+![Impeccable quality overview](codex_doc/infographics/impeccable-quality-infographic-sheet.png)
+
+![The Quality Flywheel](codex_doc/infographics/01-quality-flywheel.png)
+
+![The Context Stack](codex_doc/infographics/02-context-stack.png)
+
+![Command System As Design Specialisation](codex_doc/infographics/04-command-specialization.png)
+
+![Anti-Pattern Detector As Guardrail](codex_doc/infographics/05-detector-guardrail.png)
+
 ---
 
 The vocabulary you didn't know you needed. 1 skill, 23 commands, and curated anti-patterns for impeccable frontend design.
@@ -38,30 +48,6 @@ Impeccable fights that bias with:
 - **An expanded skill** with 7 domain-specific reference files ([view source](source/skills/impeccable/))
 - **23 commands** to audit, review, polish, distill, animate, and more
 - **Curated anti-patterns** that explicitly tell the AI what NOT to do
-
-## How it works
-
-![Impeccable quality overview](codex_doc/infographics/impeccable-quality-infographic-sheet.png)
-
-**The quality flywheel** — not one prompt, but a loop: context in, right discipline selected, code out, rendered UI inspected, lessons fed back as stricter guidance.
-
-![The Quality Flywheel](codex_doc/infographics/01-quality-flywheel.png)
-
-**The context stack** — before the AI edits a single file, it builds a layered brief. Each layer narrows the design space: project identity → visual system → register → command discipline.
-
-![The Context Stack](codex_doc/infographics/02-context-stack.png)
-
-**Command specialisation** — "make it better" becomes a named job. 23 commands keep broad UI work from collapsing into generic advice.
-
-![Command System As Design Specialisation](codex_doc/infographics/04-command-specialization.png)
-
-**The detector as guardrail** — taste rules are not left as prose. Many are converted into executable checks that run in the CLI, the browser, and CI.
-
-![Anti-Pattern Detector As Guardrail](codex_doc/infographics/05-detector-guardrail.png)
-
-Full diagrams (SVG + PNG) with code evidence maps: [`codex_doc/impeccable-quality-infographics.md`](codex_doc/impeccable-quality-infographics.md)
-
----
 
 ## What's Included
 
